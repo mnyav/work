@@ -163,3 +163,50 @@ section
         span
             width: 526px
             font-size: 21px
+.mod
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 1050
+    display: none
+    width: 100%
+    height: 100%
+    overflow: hidden
+    background-color: rgba(0, 0, 0, .5)
+    &_show
+        display: block
+    &_hide
+        display: none
+    &_block
+        width: 400px
+        height: 400px
+        width: 400px
+        height: 400px
+        margin: 100px auto
+        background-color: aliceblue
+
+    &_content
+        text-align: center
+        height: 100%
+        width: 100%
+    form
+        display: flex
+        flex-direction: column
+        align-items: center
+    &_close
+        position: relative
+        left: 180px
+        font-size: 25px
+        cursor: pointer
+    .title
+        margin-top: 40px
+        font-size: 20px
+    .mod_input
+        width: 80%
+        height: 53px
+        margin-top: 16px
+    .btn
+        width: 60%
+        height: 40px
+        background-color: aqua
+        margin-top: 20px
